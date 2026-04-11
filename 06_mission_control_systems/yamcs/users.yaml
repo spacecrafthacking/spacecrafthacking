@@ -1,0 +1,9 @@
+user:
+  password: somepassword
+  roles: [Operator]
+  
+administrator:
+  displayName: Some User
+  password: somepassword
+  roles: [Operator]
+

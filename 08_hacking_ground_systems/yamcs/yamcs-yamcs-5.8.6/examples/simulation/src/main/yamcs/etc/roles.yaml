@@ -1,0 +1,39 @@
+Operator:
+  ReadParameter: [".*"]
+  WriteParameter: []
+  ReadPacket: ["PP_.*", ".*"]
+  (@\codewingding{1}@)System: ["ManageAnyBucket", "ManageBucket"]
+
+Administrator:
+  ReadParameter: [".*"]
+  WriteParameter: [".*"]
+  ReadPacket: [".*"]
+  Command: [".*"]
+  CommandHistory: [".*"]
+  ChangeCalibrator: [".*"]
+  System: ["ControlProcessor", 
+    "ModifyCommandHistory", 
+    "ControlCommandQueue", 
+    "Command", 
+    "GetMissionDatabase", 
+    "ControlArchiving", 
+    "ReadTables", 
+    "WriteTables",  
+    "WriteEvents",
+    "ControlCommandClearances",
+    "CommandOptions",
+    "CommandHistory",
+    "ReadAlarms",
+    "ControlAlarms",
+    "ReadActivities",
+    "ControlActivities",
+    "ControlArchiving",
+    "ReadLinks",
+    "ManageParameterLists",
+    "ReadEvents",
+    "ReadTimeline",
+    "ControlTimeline",
+    "ReadSystemInfo",
+    "ControlFileTransfers",
+    "ReadFileTransfers"
+  ]

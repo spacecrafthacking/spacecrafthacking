@@ -1,0 +1,7 @@
+operator:
+  password: somepassword
+  roles: [Operator]
+  
+administrator:
+  password: secretpassword
+  roles: [Administrator, Operator]

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Hello from firmware payload"
+touch /tmp/pwned_from_ground
+exit 42

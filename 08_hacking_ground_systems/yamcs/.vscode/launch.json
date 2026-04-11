@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "configurations": 
+    [
+        {
+            "type": "java",
+            "name": "Attach to Yamcs",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 7896
+        }
+    ]
+}
