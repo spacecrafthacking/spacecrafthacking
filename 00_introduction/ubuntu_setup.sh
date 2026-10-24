@@ -146,7 +146,7 @@ cat > "${PLAYBOOK_FILE}" << EOF
         . "$NVM_DIR/nvm.sh"
         nvm install 22
         nvm alias default 22
-        echo '. "{{ nvm_dir }}/nvm.sh"' >> "{{ home_dir }}/.bashrc"
+        echo '. "{{ nvm_dir }}/nvm.sh"' >> "{{ user_home }}/.bashrc"
       args:
         executable: /bin/bash
       tags: [node_group]
